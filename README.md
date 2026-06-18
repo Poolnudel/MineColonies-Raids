@@ -1,25 +1,45 @@
+# MineColonies Raids
 
-Installation information
-=======
+MineColonies Raids is a NeoForge 1.21.1 addon that will extend MineColonies with raid-focused gameplay. The repository currently provides a clean, buildable foundation and an explicit integration boundary for future features.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## Requirements
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+- JDK 21
+- Minecraft 1.21.1
+- NeoForge 21.1.233 or newer compatible 21.1.x release
+- MineColonies 1.21.1
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+## Development
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+```text
+./gradlew build
+./gradlew runClient
+```
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+On Windows, use `gradlew.bat` instead of `./gradlew`.
+
+MineColonies is resolved from the official LDTTeam Maven repository and is declared as both a compile/runtime dependency and a required NeoForge mod dependency. See [docs/MineColoniesIntegration.md](docs/MineColoniesIntegration.md) for dependency and upgrade guidance.
+
+## Project layout
+
+```text
+src/main/java/com/minecolonies/raids/
+├── integration/minecolonies/  MineColonies adapter boundary
+├── raid/                       Loader-independent raid domain
+├── registry/                   NeoForge deferred registrations
+└── MineColoniesRaids.java      Mod entry point
+src/main/resources/             Runtime assets and data
+src/main/templates/             Generated NeoForge metadata
+docs/                           Architecture and research notes
+```
+
+## Documentation
+
+- [Architecture](docs/Architecture.md)
+- [MineColonies integration](docs/MineColoniesIntegration.md)
+- [MineColonies technical research](docs/MineColoniesResearch.md)
+- [Contributing](CONTRIBUTING.md)
+
+## Status and license
+
+This project is in early development. The project metadata currently declares **All Rights Reserved**; no permission to redistribute modified builds is implied.
