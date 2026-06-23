@@ -1,0 +1,17 @@
+{
+  "block.minecolonies_raids.raid_command_block": "Raid Command Block",
+  "screen.minecolonies_raids.raid_command.title": "Raid Command",
+  "screen.minecolonies_raids.raid_command.start_raid": "Start Raid",
+  "screen.minecolonies_raids.siege_defense.title": "Siege Defense",
+  "screen.minecolonies_raids.siege_defense.start_wave": "Start Wave",
+  "message.minecolonies_raids.raid_command.no_colony": "This Raid Command Block is not inside a valid MineColonies colony.",
+  "message.minecolonies_raids.raid_command.no_colony_fallback": "No MineColonies colony was found at this block. Spawning the MVP test wave near the command block instead.",
+  "message.minecolonies_raids.raid_command.no_spawn": "Raid wave could not be started because no safe spawn position was found outside the colony.",
+  "message.minecolonies_raids.raid_command.spawn_failed": "Raid wave could not be started because no enemies could be spawned.",
+  "message.minecolonies_raids.raid_command.wave_active": "A raid wave is already active.",
+  "message.minecolonies_raids.siege_defense.no_colony": "No valid colony found.",
+  "message.minecolonies_raids.siege_defense.no_permission": "You do not have permission to manage this colony.",
+  "message.minecolonies_raids.siege_defense.no_spawn": "Wave could not be started because no safe spawn position was found outside the colony.",
+  "message.minecolonies_raids.siege_defense.spawn_failed": "Wave could not be started because no enemies could be spawned.",
+  "message.minecolonies_raids.siege_defense.wave_active": "Wave in progress."
+}

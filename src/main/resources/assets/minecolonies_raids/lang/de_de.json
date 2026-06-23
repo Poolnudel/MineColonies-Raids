@@ -1,0 +1,17 @@
+{
+  "block.minecolonies_raids.raid_command_block": "Raid-Kommandoblock",
+  "screen.minecolonies_raids.raid_command.title": "Raid Command",
+  "screen.minecolonies_raids.raid_command.start_raid": "Start Raid",
+  "screen.minecolonies_raids.siege_defense.title": "Siege Defense",
+  "screen.minecolonies_raids.siege_defense.start_wave": "Start Wave",
+  "message.minecolonies_raids.raid_command.no_colony": "Dieser Raid-Kommandoblock befindet sich nicht in einer gueltigen MineColonies-Kolonie.",
+  "message.minecolonies_raids.raid_command.no_colony_fallback": "An diesem Block wurde keine MineColonies-Kolonie gefunden. Die MVP-Testwelle wird stattdessen nahe am Kommandoblock gespawnt.",
+  "message.minecolonies_raids.raid_command.no_spawn": "Die Raid-Welle konnte nicht gestartet werden, weil keine sichere Spawnposition ausserhalb der Kolonie gefunden wurde.",
+  "message.minecolonies_raids.raid_command.spawn_failed": "Die Raid-Welle konnte nicht gestartet werden, weil keine Gegner gespawnt werden konnten.",
+  "message.minecolonies_raids.raid_command.wave_active": "Es ist bereits eine Raid-Welle aktiv.",
+  "message.minecolonies_raids.siege_defense.no_colony": "Keine gueltige Kolonie gefunden.",
+  "message.minecolonies_raids.siege_defense.no_permission": "Du hast keine Berechtigung, diese Kolonie zu verwalten.",
+  "message.minecolonies_raids.siege_defense.no_spawn": "Die Welle konnte nicht gestartet werden, weil keine sichere Spawnposition ausserhalb der Kolonie gefunden wurde.",
+  "message.minecolonies_raids.siege_defense.spawn_failed": "Die Welle konnte nicht gestartet werden, weil keine Gegner gespawnt werden konnten.",
+  "message.minecolonies_raids.siege_defense.wave_active": "Welle laeuft bereits."
+}

@@ -1,0 +1,17 @@
+{
+  "name": "MineColonies Raids MVP",
+  "icon": "icon.png",
+  "authors": [
+    "MineColonies Raids"
+  ],
+  "desc": "MVP structure pack container for MineColonies Raids raid command structures.",
+  "mods": [
+    "minecraft",
+    "neoforge",
+    "structurize",
+    "minecolonies",
+    "minecolonies_raids"
+  ],
+  "version": 0.1,
+  "pack-format": 1
+}

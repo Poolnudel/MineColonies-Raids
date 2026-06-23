@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecolonies_raids:block/raid_command_block"
+    }
+  }
+}
