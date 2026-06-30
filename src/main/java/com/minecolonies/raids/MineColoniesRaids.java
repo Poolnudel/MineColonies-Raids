@@ -22,6 +22,8 @@ public final class MineColoniesRaids {
         modEventBus.addListener(ModBlocks::addCreativeTabItems);
         NeoForge.EVENT_BUS.addListener(TownHallInteractionHandler::onRightClickBlock);
         NeoForge.EVENT_BUS.addListener(RaidWaveManager::onServerTick);
+        NeoForge.EVENT_BUS.addListener(RaidWaveManager::onLivingDeath);
+        NeoForge.EVENT_BUS.addListener(RaidWaveManager::onEntityLeaveLevel);
 
         LOGGER.info("Initializing MineColonies Raids");
     }

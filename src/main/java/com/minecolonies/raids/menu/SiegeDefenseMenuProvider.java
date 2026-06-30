@@ -19,6 +19,6 @@ public record SiegeDefenseMenuProvider(MineColoniesIntegration.TownHallContext c
     @Nullable
     @Override
     public AbstractContainerMenu createMenu(final int containerId, final Inventory inventory, final Player player) {
-        return new SiegeDefenseMenu(containerId, inventory, this.context.dimension(), this.context.colonyId(), this.context.townHallPos());
+        return new SiegeDefenseMenu(containerId, inventory, this.context.dimension(), this.context.colonyId(), this.context.townHallPos(), SiegeDefenseViewData.EMPTY);
     }
 }

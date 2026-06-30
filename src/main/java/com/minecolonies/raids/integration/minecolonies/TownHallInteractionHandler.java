@@ -2,6 +2,7 @@ package com.minecolonies.raids.integration.minecolonies;
 
 import com.minecolonies.api.colony.IColony;
 import com.minecolonies.raids.menu.SiegeDefenseMenuProvider;
+import com.minecolonies.raids.raid.RaidWaveManager;
 import java.util.Optional;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -43,6 +44,7 @@ public final class TownHallInteractionHandler {
             buffer.writeResourceLocation(context.get().dimension().location());
             buffer.writeVarInt(context.get().colonyId());
             buffer.writeBlockPos(context.get().townHallPos());
+            RaidWaveManager.createViewData(level, context.get().colonyId()).write(buffer);
         });
 
         event.setCanceled(true);

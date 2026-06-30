@@ -4,6 +4,9 @@
   "screen.minecolonies_raids.raid_command.start_raid": "Start Raid",
   "screen.minecolonies_raids.siege_defense.title": "Siege Defense",
   "screen.minecolonies_raids.siege_defense.start_wave": "Start Wave",
+  "screen.minecolonies_raids.siege_defense.repeat_last": "Letzte wiederholen",
+  "screen.minecolonies_raids.siege_defense.start_next": "Naechste starten",
+  "screen.minecolonies_raids.siege_defense.all_complete": "Alle abgeschlossen",
   "message.minecolonies_raids.raid_command.no_colony": "Dieser Raid-Kommandoblock befindet sich nicht in einer gueltigen MineColonies-Kolonie.",
   "message.minecolonies_raids.raid_command.no_colony_fallback": "An diesem Block wurde keine MineColonies-Kolonie gefunden. Die MVP-Testwelle wird stattdessen nahe am Kommandoblock gespawnt.",
   "message.minecolonies_raids.raid_command.no_spawn": "Die Raid-Welle konnte nicht gestartet werden, weil keine sichere Spawnposition ausserhalb der Kolonie gefunden wurde.",
@@ -13,5 +16,8 @@
   "message.minecolonies_raids.siege_defense.no_permission": "Du hast keine Berechtigung, diese Kolonie zu verwalten.",
   "message.minecolonies_raids.siege_defense.no_spawn": "Die Welle konnte nicht gestartet werden, weil keine sichere Spawnposition ausserhalb der Kolonie gefunden wurde.",
   "message.minecolonies_raids.siege_defense.spawn_failed": "Die Welle konnte nicht gestartet werden, weil keine Gegner gespawnt werden konnten.",
-  "message.minecolonies_raids.siege_defense.wave_active": "Welle laeuft bereits."
+  "message.minecolonies_raids.siege_defense.wave_active": "Welle laeuft bereits.",
+  "message.minecolonies_raids.siege_defense.repeat_unavailable": "Wiederholen ist nicht verfuegbar, weil noch keine Welle abgeschlossen wurde.",
+  "message.minecolonies_raids.siege_defense.wave_locked": "Diese Welle ist noch nicht freigeschaltet.",
+  "message.minecolonies_raids.siege_defense.all_complete": "Alle vier Prototyp-Wellen sind abgeschlossen."
 }

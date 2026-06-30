@@ -1,0 +1,18 @@
+package com.minecolonies.raids.raid.spawn;
+
+enum RaidSpawnRejection {
+    VALID,
+    UNLOADED,
+    NOT_ENTITY_TICKING,
+    UNDERGROUND,
+    UNSAFE_GROUND,
+    HEADROOM_BLOCKED,
+    FLUID,
+    DANGEROUS_BLOCK,
+    COLLISION,
+    INSIDE_COLONY,
+    NEAR_BUILDING,
+    TOO_FAR_FROM_PLAYER,
+    TOO_CLOSE_TO_COLONY,
+    TOO_FAR_FROM_COLONY
+}
